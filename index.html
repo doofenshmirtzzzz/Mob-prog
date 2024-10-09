@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="rob.jpg" alt="Robby Andrew Gabutan" class="profile-pic">
+            <h2>Robby Andrew Gabutan</h2>
+            <p>Joined 1 year ago</p>
+        </div>
+
+        <div class="profile-settings">
+            <h3>Profile</h3>
+            <button id="manageUser">Manage User</button>
+        </div>
+
+        <div class="settings">
+            <h3>Settings</h3>
+            <div class="setting-option">
+                <label for="notifications">Notifications</label>
+                <input type="checkbox" id="notifications" name="notifications">
+            </div>
+            <div class="setting-option">
+                <label for="darkMode">Dark Mode</label>
+                <input type="checkbox" id="darkMode" name="darkMode">
+            </div>
+        </div>
+
+        <button id="signOut">Sign Out</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
